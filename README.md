@@ -1,4 +1,5 @@
 # Math-Magician
+project1
 
 > A responsive leaderboard webpage made with JavaScript, React and Webpack, made for a Microverse project
 
@@ -28,3 +29,5 @@ Feel free to check the [issues page](../../issues/).
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+=======
+dev
