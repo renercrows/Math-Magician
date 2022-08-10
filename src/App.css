@@ -16,16 +16,17 @@
   height: 60em;
   margin: auto;
   margin-top: 10rem;
+  background-color: rgb(222, 220, 220);
 }
 
 .output {
   display: flex;
-  justify-content: end;
   align-items: flex-end;
+  justify-content: flex-end;
   padding-right: 0.2em;
   background-color: rgb(133, 134, 147);
   font-size: 6rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .row {
@@ -46,6 +47,17 @@
   background: rgb(224, 224, 224);
   font-size: 4rem;
   width: 100%;
+  cursor: pointer;
+}
+
+.calc_key:hover {
+  transition-duration: 0.1s;
+  background-color: #b1aeae;
+  transform: scale(1.02);
+}
+
+.calc_key:active {
+  transform: scale(0.95);
 }
 
 .operator_key {
