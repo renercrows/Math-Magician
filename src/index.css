@@ -1,27 +1,143 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  background-color: rgb(255, 251, 251);
+  font-size: 62.5%;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-wrap {
+  display: grid;
+  grid-template-rows: auto;
+  width: 40em;
+  height: 60em;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: rgb(222, 220, 220);
+}
+
+.output {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 0.2em;
+  background-color: rgb(133, 134, 147);
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.last_row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.calc_key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgb(190, 190, 190);
+  background: rgb(224, 224, 224);
+  font-size: 4rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.calc_key:hover {
+  transition-duration: 0.1s;
+  background-color: #b1aeae;
+  transform: scale(1.02);
+}
+
+.calc_key:active {
+  transform: scale(0.95);
+}
+
+.operator_key {
+  background: rgb(244, 145, 62);
+}
+
+#navbar {
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(67, 67, 67);;
+}
+
+#nav-links {
+  text-decoration: none;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+#nav-links a {
+  color: gray;
+  text-decoration: none;
+}
+
+.link {
+  margin-right: 5%;
+  margin-left: 3%;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 70%;
+  margin-top: 10rem;
+  margin-left: 25rem;
+  margin-bottom: 34rem;
+  font-size: 2.5rem;
+  line-height: 60px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+#quote span {
+  font-weight: bolder;
+}
+
+.author {
+  color: rgb(67, 67, 67);
+}
+
+.home {
+  width: 90rem;
+  text-align: left;
+  margin-left: 30rem;
+  font-size: 1.6rem;
+  line-height: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(67, 67, 67);
+  margin-top: 10rem;
+  margin-bottom: 22rem;
+}
+
+.text {
+  margin-top: 5rem;
+  color: gray;
+}
+
+.text2 {
+  margin-top: 3rem;
+  color: gray;
+}
+
+#footer {
+  color: rgb(67, 67, 67);;
+  margin-left: 5rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }

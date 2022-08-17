@@ -1,16 +1,20 @@
 import React from 'react';
-import Calculator from './Components/Calculator';
-import './App.css';
+import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return <Calculator />;
-  }
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <Navigation />
+      </header>
+      <main id="main-section">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
