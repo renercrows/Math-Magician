@@ -14,7 +14,7 @@ const Calculator = () => {
   };
   return (
     <div className="container-wrap">
-      <div className="output">{element.next || element.total || 0}</div>
+      <div className="output" id="calc-display">{element.next || element.total || 0}</div>
       <div className="row">
         <button type="button" className="calc_key " onClick={calc}>
           AC
