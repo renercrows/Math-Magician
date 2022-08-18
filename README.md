@@ -1,6 +1,6 @@
 # Math-Magicians
 
-> A responsive listing webpage made with JavaScript, React and Webpack, made for a Microverse project
+> A responsive calculator webpage made with JavaScript, React and Webpack, made for a Microverse project
 
 ## Built With
 
