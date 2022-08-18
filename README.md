@@ -52,7 +52,13 @@
 
 - GitHub: [@Nyame-Wolf](https://github.com/Nyame-Wolf)
 - Twitter: [@mumenyam](https://twitter.com/mumenyam)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/) 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
+
+:**Jean Bulambo**
+
+- GitHub: [@Jeanbulambo](https://github.com/Jeanbulambo)
+- Twitter: [@Jeanbulambo](https://twitter.com/Jeanbulambo4)
+- LinkedIn: [@Jeanbulambo](https://www.linkedin.com/in/jean-bulambo-20662a14a/)
 
 ## Project Milestones
 
