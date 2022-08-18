@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Home from './pages/Home';
-import Calculator from './components/Calculator';
+import Calculator from './Components/Calculator';
 import Quote from './pages/Quote';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

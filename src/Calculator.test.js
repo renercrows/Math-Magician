@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import Calculator from './components/Calculator';
+import Calculator from './Components/Calculator';
 
 describe('User makes a calculation', () => {
   test('Key 2, key 4 divide operation sign by key 3 ', () => {

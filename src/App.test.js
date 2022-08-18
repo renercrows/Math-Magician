@@ -3,8 +3,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
+import Footer from './Components/Footer';
+import Navigation from './Components/Navigation';
 
 describe('Component Testing', () => {
   test('renders App component', () => {
