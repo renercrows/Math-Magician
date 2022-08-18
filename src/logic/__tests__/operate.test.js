@@ -13,4 +13,8 @@ describe('Test operations with numbers', () => {
   test('Addition sign', () => {
     expect(operate(6, 4, '+')).toBe('10');
   });
+
+  test('resting sign', () => {
+    expect(operate(6, 3, '-')).toBe('3');
+  });
 });

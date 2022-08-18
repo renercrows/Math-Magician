@@ -7,7 +7,7 @@ const Home = () => (
   <div className="home">
     <h2>Welcome to our page!</h2>
     <p className="text">
-      Hello there, math magician! This is the Math Magicians web app. The web app is simple. It
+      Hello everyone, math magician! This is the Math Magicians web app. The web app is simple. It
       has three pages, this is the
       <strong> Home </strong>
       page where you can see some information about the web app and how it works. The next page you will find is the
