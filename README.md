@@ -2,6 +2,10 @@
 
 > A responsive calculator webpage made with JavaScript, React and Webpack, made for a Microverse project
 
+## Live Server
+
+https://62ffb2c4eb51c70224d0605f--sage-otter-2f0099.netlify.app/
+
 ## Built With
 
 - HTML, CSS, SASS, JavaScript, React, and Webpack
